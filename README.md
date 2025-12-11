@@ -17,6 +17,16 @@ Author Rafay
  -->
 
  <!-- 
+    Merging code
+    Way 1
+    git diff <branch name> to compare commits branches files and more
+    git merge <branch name> to merge 2 branch
+
+    way 2
+    Create a pr
+  -->
+
+ <!-- 
     Undoing changes
     Case -1: staged changes
     git reset <filename>
