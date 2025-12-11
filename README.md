@@ -15,3 +15,15 @@ Author Rafay
     git checkout -b <-new branch name-> (to create new branch)
     git branch -d <-branch name -> (to delete your branch)
  -->
+
+ <!-- 
+    Undoing changes
+    Case -1: staged changes
+    git reset <filename>
+    git reset
+    Case -2: commited changes for 1 commit
+    git reset Head~1
+    Case -3: commited changes for many commits
+    git reset <commithash>
+    git reset --hard commit hash
+  -->
